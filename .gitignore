@@ -1,0 +1,28 @@
+# * Files
+*.log
+npm-debug.log*
+node_modules
+
+# . Files
+.DS_Store
+*.cache
+*.pem
+
+# ENV Files
+.env
+.env.development
+.env.development.local
+.env.local
+.env.test.local
+.env.test
+.env.production
+.env.production.local
+
+# Build Files
+.dist
+coverage
+
+
+# HOSTING
+.firebase
+**/.firebaserc
